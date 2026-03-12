@@ -1,0 +1,12 @@
+@font-face{
+    font-family:Monstserrat;
+    src:url("../src/assets/fonts/Montserrat-ExtraBold.ttf")
+}
+
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-monstserrat: Monstserrat, "sans-serif";
+}
