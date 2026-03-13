@@ -163,19 +163,22 @@ const Dolphin = () => {
       </div>
 
 
-      <div className='relative'>
+      <div className='relative '>
+        
         <div>
-          <img src={bladebattery} alt="" className='w-full bg-cover' />
+          <img src={bladebattery} alt="" className='w-full bg-cover object-cover' />
         </div>
         
-        <div className='absolute inset-0 '>
+        <div className='absolute inset-0 container mx-auto'>
             <h2 className='text-3xl mt-5 text-white text-center font-monstserrat font-bold mb-4 drop-shadow-lg '>BYD Dolphin: İnqilabi Blade Battery Texnologiyası ilə Tanış Olun</h2>
             <p className='text-white text-center text-lg max-w-1xl drop-shadow-md'>BYD Dolphin yalnız müasir dizaynı və şəhər içi çevikliyi ilə deyil, həm də mərkəzində dayanan qabaqcıl batareya texnologiyası — BYD Blade Battery ilə elektrikli avtomobil bazarında yeni standartlar müəyyən edir.</p>
         </div>
       </div>
+      </div>
+     
 
 
-    </div>
+   
 
 
   )
