@@ -8,6 +8,7 @@ import dolphininto3 from '../assets/dolphininto3.webp'
 import dolphininto4 from '../assets/dolphininto4.webp'
 import dolphininto5 from '../assets/dolphininto5.webp'
 import dolphininto6 from '../assets/dolphininto6.webp'
+import bladebattery from '../assets/dolphin-battery.jpg'
 
 
 
@@ -61,12 +62,12 @@ const Dolphin = () => {
 
       </div>
 
-      <div className="container mx-auto py-16 px-4">
+      <div className="container mx-auto py-16 px-4 ">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
 
           
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col hover:bg-black  transition-all duration-800">
+          <div className="bg-white p-6 rounded-xl shadow-sm border  border-gray-100 flex flex-col hover:bg-black  transition-all duration-800">
             <div className="overflow-hidden rounded-lg mb-6 h-60">
               <img src={dolphininto1} alt="Vegan leather seats" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
@@ -158,6 +159,18 @@ const Dolphin = () => {
             </div>
           </div>
 
+        </div>
+      </div>
+
+
+      <div className='relative'>
+        <div>
+          <img src={bladebattery} alt="" className='w-full bg-cover' />
+        </div>
+        
+        <div className='absolute inset-0 '>
+            <h2 className='text-3xl mt-5 text-white text-center font-monstserrat font-bold mb-4 drop-shadow-lg '>BYD Dolphin: İnqilabi Blade Battery Texnologiyası ilə Tanış Olun</h2>
+            <p className='text-white text-center text-lg max-w-1xl drop-shadow-md'>BYD Dolphin yalnız müasir dizaynı və şəhər içi çevikliyi ilə deyil, həm də mərkəzində dayanan qabaqcıl batareya texnologiyası — BYD Blade Battery ilə elektrikli avtomobil bazarında yeni standartlar müəyyən edir.</p>
         </div>
       </div>
 

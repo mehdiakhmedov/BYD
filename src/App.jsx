@@ -44,7 +44,7 @@ function App() {
         <Route path='/Dolphinnews' element={<Dolphinnews />} />
       </Routes>
 
-      <Footer /> {/* Həmişə görünəcək */}
+      <Footer /> 
     </BrowserRouter>
       
     </>
