@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <header className='w-full z-50 bg-white relative font-montserrat'>
+    <header className='w-full sticky top-0 z-[100] bg-white/80 backdrop-blur-md shadow-sm font-montserrat transition-all duration-300'>
       <div className='max-w-[1200px] mx-auto px-4 py-6 flex justify-between items-center'>
         
        

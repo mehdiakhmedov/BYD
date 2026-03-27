@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "BYD Qrupu, FC Internazionale Milano-nun qlobal avtomobil tərəfdaşıdır.",
+    "date": "mart 5 2026",
+    "image": "/src/assets/byd-news1.webp",
+    "link": "/Global"
+  },
+  {
+    "id": 2,
+    "title": "BYD, Avropadakı ilk avtomobil zavodu üçün voestalpine şirkətini seçir.",
+    "date": "mart 10 2026",
+    "image": "/src/assets/manwoman.jpg",
+    "link": "/Bydconnect"
+  },
+  {
+    "id": 3,
+    "title": "BYD əyləncəli və gələcəyə hazır DOLPHIN SURF modelini təqdim edir.",
+    "date": "mart 15 2026",
+    "image": "/src/assets/bydstreet.webp",
+    "link": "/Dolphinnews"
+  }
+]

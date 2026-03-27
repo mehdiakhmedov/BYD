@@ -13,6 +13,9 @@ import Bydhan from './component/Bydhan'
 import Global from './component/Global'
 import Bydconnect from './component/Bydconnect'
 import Dolphinnews from './component/Bydconnect'
+import ScrollToTop from './component/ScrollToTop'
+import Newdetails from './component/Newdetails'
+import Aboutus from './component/Aboutus'
 
 
 
@@ -42,9 +45,12 @@ function App() {
         <Route path='/Global' element={<Global />} />
         <Route path='/Bydconnect' element={<Bydconnect />} />
         <Route path='/Dolphinnews' element={<Dolphinnews />} />
+        <Route path="/news/:id" element={<Newdetails />} />
+        <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
 
       <Footer /> 
+      <ScrollToTop />
     </BrowserRouter>
       
     </>
