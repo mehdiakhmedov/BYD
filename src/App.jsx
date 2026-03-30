@@ -16,6 +16,11 @@ import Dolphinnews from './component/Bydconnect'
 import ScrollToTop from './component/ScrollToTop'
 import Newdetails from './component/Newdetails'
 import Aboutus from './component/Aboutus'
+import Greenworld from './component/Greenworld'
+import Bladebattery from './component/Bladebattery'
+import Bydsuperdm from './component/Bydsuperdm'
+import Eplatform from './component/Eplatform'
+
 
 
 
@@ -47,6 +52,10 @@ function App() {
         <Route path='/Dolphinnews' element={<Dolphinnews />} />
         <Route path="/news/:id" element={<Newdetails />} />
         <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/greenworld" element={<Greenworld />} />
+        <Route path="/bladebattery" element={<Bladebattery/>} />
+        <Route path="/bydsuperdom" element={<Bydsuperdm/>} />
+        <Route path="/eplatform" element={<Eplatform/>} />
       </Routes>
 
       <Footer /> 

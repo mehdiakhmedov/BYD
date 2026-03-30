@@ -34,7 +34,9 @@ const Footer = () => {
               <li>
                 <Link to="/Aboutus" className='hover:text-yellow-400 cursor-pointer transition'>BİZ KİMİK?</Link>
                 </li>
-              <li className='hover:text-yellow-400 cursor-pointer transition'>YAŞIL DÜNYA NAMİNƏ</li>
+              <li>
+                <Link to="/greenworld" className='hover:text-yellow-400 cursor-pointer transition'>YAŞIL DÜNYA NAMİNƏ</Link>
+                </li>
             </ul>
           </div>
 
@@ -42,9 +44,15 @@ const Footer = () => {
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-lg border-b border-white/20 pb-2 md:border-none'>TEXNOLOGİYA</h2>
             <ul className='flex flex-col gap-2 opacity-80 text-[16px]'>
-              <li className='hover:text-yellow-400 cursor-pointer transition'>BYD BLADE BATAREYASI</li>
-              <li className='hover:text-yellow-400 cursor-pointer transition'>BYD SUPER DM</li>
-              <li className='hover:text-yellow-400 cursor-pointer transition'>BYD e-PLATFORMA 3.0</li>
+              <li>
+                <Link to='/bladebattery' className='hover:text-yellow-400 cursor-pointer transition'>BYD BLADE BATTERY</Link>
+                </li>
+              <li>
+               <Link to='/bydsuperdom' className='hover:text-yellow-400 cursor-pointer transition'>BYD SUPER DM</Link> 
+                </li>
+              <li>
+                <Link to='/eplatform' className='hover:text-yellow-400 cursor-pointer transition'>BYD E-PLATFORM 3.0</Link>
+                </li>
               <li className='hover:text-yellow-400 cursor-pointer transition'>NEV NƏDİR?</li>
             </ul>
           </div>
