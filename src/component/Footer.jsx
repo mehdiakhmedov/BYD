@@ -53,7 +53,9 @@ const Footer = () => {
               <li>
                 <Link to='/eplatform' className='hover:text-yellow-400 cursor-pointer transition'>BYD E-PLATFORM 3.0</Link>
                 </li>
-              <li className='hover:text-yellow-400 cursor-pointer transition'>NEV NƏDİR?</li>
+              <li>
+               <Link to='/nev' className='hover:text-yellow-400 cursor-pointer transition'>NEV NƏDİR?</Link>
+                </li>
             </ul>
           </div>
 

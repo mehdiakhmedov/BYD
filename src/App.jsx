@@ -20,6 +20,7 @@ import Greenworld from './component/Greenworld'
 import Bladebattery from './component/Bladebattery'
 import Bydsuperdm from './component/Bydsuperdm'
 import Eplatform from './component/Eplatform'
+import Nev from './component/Nev'
 
 
 
@@ -56,6 +57,7 @@ function App() {
         <Route path="/bladebattery" element={<Bladebattery/>} />
         <Route path="/bydsuperdom" element={<Bydsuperdm/>} />
         <Route path="/eplatform" element={<Eplatform/>} />
+        <Route path="/nev" element={<Nev/>} />
       </Routes>
 
       <Footer /> 
