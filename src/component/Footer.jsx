@@ -62,11 +62,12 @@ const Footer = () => {
           <div className='flex flex-col gap-4'>
             <h2 className='font-bold text-lg'>BİZİ İZLƏYİN</h2>
             <div className='flex gap-4 text-2xl'>
-              <FaFacebook className='hover:text-blue-500 transition cursor-pointer' />
-              <BsTwitterX className='hover:text-gray-400 transition cursor-pointer' />
-              <AiFillInstagram className='hover:text-pink-500 transition cursor-pointer' />
-              <FaTiktok className='hover:text-black transition cursor-pointer' />
-              <FaYoutube className='hover:text-red-600 transition cursor-pointer' />
+             
+              <a href="https://www.facebook.com/bydcompany/"> <FaFacebook className='hover:text-blue-500 transition cursor-pointer' /></a>
+              <a href="https://x.com/BYDCompany"> <BsTwitterX className='hover:text-gray-400 transition cursor-pointer' /></a>
+              <a href="https://www.instagram.com/byd_global/"> <AiFillInstagram className='hover:text-pink-500 transition cursor-pointer' /></a>
+              <a href="https://www.tiktok.com/@byd_global"> <FaTiktok className='hover:text-black transition cursor-pointer' /></a>
+              <a href="https://www.youtube.com/@BYDGlobal">  <FaYoutube className='hover:text-red-600 transition cursor-pointer' /></a>
             </div>
           </div>
 

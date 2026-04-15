@@ -29,6 +29,7 @@ import Nev from './component/Nev'
 
 
 
+
 function App() {
 
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path="/bladebattery" element={<Bladebattery/>} />
         <Route path="/bydsuperdom" element={<Bydsuperdm/>} />
         <Route path="/eplatform" element={<Eplatform/>} />
+          <Route path="/test" element={<Test/>} />
         <Route path="/nev" element={<Nev/>} />
       </Routes>
 

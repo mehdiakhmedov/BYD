@@ -15,16 +15,15 @@ const Header = () => {
     <header className='w-full sticky top-0 z-[100] bg-white/80 backdrop-blur-md shadow-sm font-montserrat transition-all duration-300'>
       <div className='max-w-[1200px] mx-auto px-4 py-6 flex justify-between items-center'>
         
-        {/* LOGO */}
+  
         <div className='w-24 cursor-pointer z-50'>
           <Link to='/'><img src={bydd} alt="BYD Logo" /></Link>
         </div>
 
-        {/* DESKTOP MENU */}
         <div className='hidden md:flex items-center'>
           <ul className='flex items-center text-black gap-8 font-bold cursor-pointer'>
             
-            {/* 1. MODELLƏR DROPDOWN */}
+           
             <li className='relative group py-2'>
               <div className='flex items-center gap-1 hover:text-amber-800 transition-all duration-300'>
                 Modellər <IoIosArrowDown className='group-hover:rotate-180 transition-transform duration-300' />
@@ -36,7 +35,6 @@ const Header = () => {
               </div>
             </li>
 
-            {/* 2. HAQQIMIZDA DROPDOWN */}
             <li className='relative group py-2'>
               <div className='flex items-center gap-1 hover:text-amber-800 transition-all duration-300'>
                 Haqqımızda <IoIosArrowDown className='group-hover:rotate-180 transition-transform duration-300' />
@@ -47,7 +45,6 @@ const Header = () => {
               </div>
             </li>
 
-            {/* 3. TEXNOLOGİYA DROPDOWN */}
             <li className='relative group py-2'>
               <div className='flex items-center gap-1 hover:text-amber-800 transition-all duration-300'>
                 Texnologiya <IoIosArrowDown className='group-hover:rotate-180 transition-transform duration-300' />
@@ -66,12 +63,11 @@ const Header = () => {
           </ul>
         </div>
 
-        {/* MOBILE ICON */}
+   
         <div onClick={handleNav} className='md:hidden cursor-pointer z-50 text-black'>
           {nav ? <HiX size={30} /> : <HiMenuAlt3 size={30} />}
         </div>
 
-        {/* MOBILE MENU */}
         <div className={
           nav 
           ? 'fixed left-0 top-0 w-full h-screen bg-white flex flex-col items-center justify-start pt-24 gap-6 ease-in duration-500 z-40 overflow-y-auto' 
